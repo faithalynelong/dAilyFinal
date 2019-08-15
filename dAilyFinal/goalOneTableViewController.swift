@@ -10,6 +10,9 @@ import UIKit
 
 class trialTableViewController: UITableViewController {
 
+  
+    
+    
     let tableview: UITableView = {
         let tv = UITableView()
         tv.backgroundColor = UIColor.white
@@ -51,13 +54,18 @@ class trialTableViewController: UITableViewController {
         let cell = tableview.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as! ThirtyDayCell
         cell.backgroundColor = UIColor.white
         cell.dayLabel.text = "GOAL \(indexPath.row+1)"
-        return cell
+      
+    return cell
         
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
-    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection
+        section: Int) -> String? {
+        return "Goal \(section)"
+    }
+}
     class ThirtyDayCell: UITableViewCell {
         
         let cellView: UIView = {
@@ -105,5 +113,5 @@ class trialTableViewController: UITableViewController {
         }
         
     }
-    
-}
+
+

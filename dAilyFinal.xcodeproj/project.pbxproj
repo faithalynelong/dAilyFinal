@@ -16,6 +16,7 @@
 		1856334A23048A1100286B33 /* dAilyFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856334923048A1100286B33 /* dAilyFinalTests.swift */; };
 		1856335523048A1100286B33 /* dAilyFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856335423048A1100286B33 /* dAilyFinalUITests.swift */; };
 		188C4D382305BC200015DA64 /* goalOneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C4D372305BC200015DA64 /* goalOneTableViewController.swift */; };
+		188C4D3A2305F8500015DA64 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C4D392305F8500015DA64 /* Goal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1856335423048A1100286B33 /* dAilyFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dAilyFinalUITests.swift; sourceTree = "<group>"; };
 		1856335623048A1100286B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188C4D372305BC200015DA64 /* goalOneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goalOneTableViewController.swift; sourceTree = "<group>"; };
+		188C4D392305F8500015DA64 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				1856333123048A0F00286B33 /* AppDelegate.swift */,
+				188C4D392305F8500015DA64 /* Goal.swift */,
 				1856333323048A0F00286B33 /* ViewController.swift */,
 				188C4D372305BC200015DA64 /* goalOneTableViewController.swift */,
 				1856333523048A0F00286B33 /* Main.storyboard */,
@@ -265,6 +268,7 @@
 				1856333423048A0F00286B33 /* ViewController.swift in Sources */,
 				1856333A23048A0F00286B33 /* dAilyFinal.xcdatamodeld in Sources */,
 				188C4D382305BC200015DA64 /* goalOneTableViewController.swift in Sources */,
+				188C4D3A2305F8500015DA64 /* Goal.swift in Sources */,
 				1856333223048A0F00286B33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
